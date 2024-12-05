@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LYRIFY</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="music-player">
+         <div class="search-container">
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search songs, artists, or albums..."
+        />
+        <button id="search-btn">Search</button>
+      </div>
+      <img src="images.jpg" alt="Music Player" class="song-img" />
+      <h1 id="song-name">Song Name</h1>
+      <p id="song-description">Music is life</p>
+      <audio controls id="audio-player">
+        <source src="media/GO-NEFFEX.mp3" type="audio/mpeg" />
+      </audio>
+      <input type="range" value="0" id="progress" />
+
+      <div class="controls">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+      </div>
+
+     
+    </div>
+  </div>
+</body>
+</html>
