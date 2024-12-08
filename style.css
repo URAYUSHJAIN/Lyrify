@@ -107,5 +107,8 @@ nav .circle {
 .search-container button:hover {
   background-color: #444;
 }
-
+#progress {
+  width: 100%;
+  margin: 10px 0;
+}
 .
